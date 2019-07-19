@@ -20,10 +20,3 @@ variable "arm_region" {
 variable "arm_resource_group_name" {
   default = "vault"
 }
-
-#Provider authentication
-variable "arm_subscription_id" {}
-
-variable "arm_client_id" {}
-variable "arm_tenant_id" {}
-variable "arm_client_secret" {}

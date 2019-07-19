@@ -14,7 +14,7 @@ variable "kubernetes_client_secret" {
 
 # Azure Variables
 variable "arm_region" {
-  default = "germanycentral"
+  default = "westeurope"
 }
 
 variable "arm_resource_group_name" {
